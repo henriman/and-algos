@@ -35,6 +35,16 @@ public class DoublyLinkedList {
 		size++;
 	}
 	
+	// Return the first element in the list.
+	public int getFirst() {
+		return first.value;
+	}
+	
+	// Return the last element in the list.
+	public int getLast() {
+		return last.value;
+	}
+	
 	// Remove and return the first element in the list.
 	public int removeFirst() {
 		int value = first.value;
